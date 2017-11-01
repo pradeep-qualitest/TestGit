@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2017-10-30T17:45:58Z" name="Suite" finished-at="2017-10-30T17:46:19Z" duration-ms="21218">
+    <groups>
+    </groups>
+    <test started-at="2017-10-30T17:45:58Z" name="Test" finished-at="2017-10-30T17:46:19Z" duration-ms="21218">
+      <class name="com.pradeep.framework.keyword.KeyWordExecution">
+        <test-method signature="mainTest()[pri:0, instance:com.pradeep.framework.keyword.KeyWordExecution@1d9b7cce]" started-at="2017-10-30T13:45:58Z" name="mainTest" finished-at="2017-10-30T13:46:19Z" duration-ms="21179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTest -->
+      </class> <!-- com.pradeep.framework.keyword.KeyWordExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
