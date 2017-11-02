@@ -50,7 +50,7 @@ public class KeyWordExecution {
 	public void mainTest() {
 		KeyWordExecution exeKey = new KeyWordExecution();
 		ReadExcel excelSheet = new ReadExcel();
-		excelSheet.openSheet("C:/Users/Qualitest/Desktop/Framework/testCaseSheet.xls");
+		excelSheet.openSheet("/libs/testCaseSheet.xls");
 		for (int row = 1; row < excelSheet.getRowCount(); row++) {
 			List<Object> myParamList = new ArrayList<Object>();
 			String methodName = excelSheet.getValueFromCell(0, row);
