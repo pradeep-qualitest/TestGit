@@ -21,11 +21,11 @@ public class KeyWordExample {
 				driver = new FirefoxDriver();
 			} else if (browserName.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
-						"/libs/chromedriver.exe");
+						"libs/chromedriver.exe");
 				driver = new ChromeDriver();
 			} else if (browserName.equalsIgnoreCase("IE")) {
 				System.setProperty("webdriver.ie.driver",
-						"/libs/IEDriverServer.exe");
+						"libs/IEDriverServer.exe");
 				driver = new InternetExplorerDriver();
 			}
 		} catch (WebDriverException e) {
