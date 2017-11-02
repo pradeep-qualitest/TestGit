@@ -65,7 +65,7 @@ public class KeyWordExample {
 		return by;
 	}
 
-	public void enter_Text(String locatorType, String value, String text) {
+	public void enter_Text(String locatorType, String value, String text) throws Exception {
 		try {
 			By locator;
 			locator = locatorValue(locatorType, value);
@@ -76,7 +76,7 @@ public class KeyWordExample {
 		}
 	}
 
-	public void click_On_Link(String locatorType, String value) {
+	public void click_On_Link(String locatorType, String value) throws Exception {
 		try {
 			By locator;
 			locator = locatorValue(locatorType, value);
@@ -87,7 +87,7 @@ public class KeyWordExample {
 		}
 	}
 
-	public void click_On_Button(String locatorType, String value) {
+	public void click_On_Button(String locatorType, String value) throws Exception {
 		try {
 			By locator;
 			locator = locatorValue(locatorType, value);
@@ -98,7 +98,7 @@ public class KeyWordExample {
 		}
 	}
 	
-	public void close_Browser() {
+	public void close_Browser() throws Exception {
 		driver.quit();
 	}
 }
