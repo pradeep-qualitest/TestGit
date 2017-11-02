@@ -5,8 +5,8 @@
 	<artifactId>com.pradeep.framework.keyword</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<jre.level>1.9</jre.level>
-		<jdk.level>1.9</jdk.level>
+		<jre.level>1.7</jre.level>
+		<jdk.level>1.7</jdk.level>
 	</properties>
 
 	<build>
@@ -24,7 +24,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.18.1</version>
+				<version>2.10</version>
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
