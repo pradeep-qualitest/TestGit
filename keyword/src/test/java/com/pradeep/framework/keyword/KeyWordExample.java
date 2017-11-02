@@ -33,9 +33,11 @@ public class KeyWordExample {
 		}
 	}
 
-	public void enter_URL(String URL) {
+	public void enter_Url(String URL) {
 		driver.navigate().to(URL);
 	}
+	
+	
 
 	public By locatorValue(String locatorTpye, String value) {
 		By by;
@@ -65,7 +67,7 @@ public class KeyWordExample {
 		return by;
 	}
 
-	public void enter_Text(String locatorType, String value, String text) throws Exception {
+	public void enter_Text(String locatorType, String value, String text) {
 		try {
 			By locator;
 			locator = locatorValue(locatorType, value);
@@ -76,7 +78,7 @@ public class KeyWordExample {
 		}
 	}
 
-	public void click_On_Link(String locatorType, String value) throws Exception {
+	public void click_On_link(String locatorType, String value) throws Exception {
 		try {
 			By locator;
 			locator = locatorValue(locatorType, value);
@@ -87,7 +89,7 @@ public class KeyWordExample {
 		}
 	}
 
-	public void click_On_Button(String locatorType, String value) throws Exception {
+	public void click_On_Button(String locatorType, String value) {
 		try {
 			By locator;
 			locator = locatorValue(locatorType, value);
@@ -98,7 +100,7 @@ public class KeyWordExample {
 		}
 	}
 	
-	public void close_Browser() throws Exception {
+	public void close_Browser() {
 		driver.quit();
 	}
 }
